@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SecondVkTest/static/css/main.fad21591.css",
+    "main.js": "/SecondVkTest/static/js/main.74e2b51c.js",
+    "index.html": "/SecondVkTest/index.html",
+    "main.fad21591.css.map": "/SecondVkTest/static/css/main.fad21591.css.map",
+    "main.74e2b51c.js.map": "/SecondVkTest/static/js/main.74e2b51c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fad21591.css",
+    "static/js/main.74e2b51c.js"
+  ]
+}
