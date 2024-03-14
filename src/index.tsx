@@ -1,7 +1,16 @@
-import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
+import {
+  AdaptivityProvider,
+  ConfigProvider,
+} from '@vkontakte/vkui';
 import App from './App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const container = document.getElementById('root');
+const root = createRoot(container); // createRoot(container!) if you use TypeScript
 root.render(
-  <App />
+  <ConfigProvider>
+    <AdaptivityProvider>
+      <App />
+    </AdaptivityProvider>
+  </ConfigProvider>,
 );

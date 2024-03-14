@@ -16,3 +16,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+span {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 0 12px;
+  font-size: 15px;
+  line-height: 20;
+  font-weight: 400;
+  height: 36px;
+  border-radius: 8px;
+  background-color: #ebedf0;
+  border: 0;
+}
